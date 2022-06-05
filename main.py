@@ -3,8 +3,7 @@ import openai
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-print('Hi, Im Marv the sarcastic robot \n')
-print('Ask me a question...')
+print('Provide a prompt...')
 userInput = input()
 
 response = openai.Completion.create(
